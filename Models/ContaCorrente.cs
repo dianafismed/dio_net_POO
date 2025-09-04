@@ -29,8 +29,13 @@ namespace dio_net_POO.Models
             else
             {
                 Saldo -= valor;
-                Console.WriteLine($"Saque de {valor:C} realizado com sucesso. Novo saldo: {Saldo:C}");
+                Console.WriteLine($"Saque de {valor:C} realizado com sucesso.");
             }
         }
+
+        public void ExibirSaldo()
+        {
+            Console.WriteLine($"Saldo atual: {Saldo:C}");
+        }   
     }
 }
