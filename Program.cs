@@ -8,11 +8,14 @@
 // conta1.Sacar(500m);
 // conta1.ExibirSaldo();
 
-Aluno aluno1 = new Aluno("Drácula", 330);
-aluno1.Nota = 9.5m;
-aluno1.Apresentar();
+// Aluno aluno1 = new Aluno("Drácula", 330);
+// aluno1.Nota = 9.5m;
+// aluno1.Apresentar();
 
-Professor professor1 = new Professor("Van Helsing", 45);
-professor1.Salario = 5000m;
-professor1.Apresentar();
+// Professor professor1 = new Professor("Van Helsing", 45);
+// professor1.Salario = 5000m;
+// professor1.Apresentar();
 
+Corrente contaCorrente = new Corrente();
+contaCorrente.Creditar(1000m);  
+contaCorrente.ExibirSaldo();
