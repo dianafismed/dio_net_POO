@@ -18,7 +18,9 @@ namespace dio_net_POO.Models
         // Métodos
         public override void Apresentar()
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos e minha nota é {Nota}.");
+            base.Apresentar();
+            Console.WriteLine($"Minha nota é {Nota}.");
+            
         }
     }
 }

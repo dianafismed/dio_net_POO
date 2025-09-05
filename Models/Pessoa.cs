@@ -13,7 +13,7 @@ namespace dio_net_POO.Models
             Nome = nome;
             Idade = idade;
         }
-
+    
         // Propriedades
         public string Nome { get; set; }
         public int Idade { get; set; }
