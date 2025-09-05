@@ -16,6 +16,6 @@
 // professor1.Salario = 5000m;
 // professor1.Apresentar();
 
-Corrente contaCorrente = new Corrente();
-contaCorrente.Creditar(1000m);  
-contaCorrente.ExibirSaldo();
+// Corrente contaCorrente = new Corrente();
+// contaCorrente.Creditar(1000m);  
+// contaCorrente.ExibirSaldo();
